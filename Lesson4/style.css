@@ -9,13 +9,7 @@ footer {
     font-size: 20px;
     text-align: center;
 }
-.italic {
-    font-style: italic;
-}
-.bold {
-    font-weight: bold;
-}
-.blue {
+.color1 {
     color: blue;
 }
 td {
@@ -23,12 +17,12 @@ td {
 }
 div {
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 table {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
 }
