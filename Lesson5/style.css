@@ -1,0 +1,42 @@
+body {
+    background-color: #121116;
+}
+.part2 {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: OpenSans;
+  font-size: 20px;
+}
+.part2 p {
+    text-align: center;
+}
+.part1 img {
+    margin-top: 113px;
+}
+.part3 img {
+    margin-top: 20px;
+}
+.part1 img, .part3 img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+div.part4 {
+    text-align: center;
+}
+.part4 img {
+    display: inline-block;
+    padding: 0 15px;
+}
+body p {
+    color: white;
+    }
+footer p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 90px;
+}
+footer p span {
+    color: #19c8fa;
+}
