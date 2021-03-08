@@ -1,0 +1,66 @@
+body {
+    background: #ffffff;
+    text-align: center;
+    font-size: 0px;
+}
+p {
+   margin: 0 auto;
+   text-align: center;
+   padding: 36px;
+}
+section div:first-child {
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+
+}
+section > div {
+width: 230px;
+padding: 25px;
+}
+section div h1 {
+    font-size: 21px;
+    text-transform: capitalize;
+}
+.content {
+    color: #777777;
+}
+section:hover, section:hover .content {
+    background-color: #0ec8cb;
+    color: #ffffff;
+    background-image: url();
+}
+header {
+    margin: 74px;
+}
+.img1 {
+    background-image: url(/assets/Anchor.svg);
+} 
+.img2 {
+    background-image: url(/assets/Diamond.svg);
+} 
+.img3 {
+    background-image: url(/assets/Eyeglasses.svg);
+} 
+.img4 {
+    background-image: url(/assets/Monitor.svg);
+} 
+section:hover > .img1 {
+    background-image: url(/assets/Anchor\ copy.svg);
+}
+section:hover > .img2 {
+    background-image: url(/assets/Diamond\ copy.svg);
+}
+section:hover > .img3 {
+    background-image: url(/assets/Eyeglasses\ copy.svg);
+}
+section:hover > .img4 {
+    background-image: url(/assets/Monitor\ copy.svg);
+}
