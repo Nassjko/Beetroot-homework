@@ -1,0 +1,48 @@
+body, html {
+    background: url(/background.svg) center;
+    margin: 0;
+    padding: 0;
+    color: #171717;
+}
+p.title {
+font: normal 400 42px/1 'Playfair Display';
+
+}
+.containerwithshadow {
+    box-shadow: 0 0 68px rgba(0,0,0,0.1);
+    padding: 103px 121px;
+    width: 1049px;
+    height: 945px;  
+    margin: 0  auto;
+    margin-top: 130px;
+    padding-right: 134px;
+}
+.Firstletter {
+    float: left; /* Обтекание по правому краю */
+    margin-right: 35px; /* Отступ справа */
+    margin-left: 0px;
+    font: normal 400 110px/1 'Playfair Display';
+}
+article {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font: normal 300 19px/1 'Lato';
+    opacity: 0.7;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+.italictext {
+    font-style: italic
+}
+button.knopka  {
+    font: normal 700 18px/1 'Lato';
+    color: #eaa258;
+    border: 2px solid #eaa258;
+    padding: 25px 73px;
+    margin-top: 40px;
+    background: #ffffff;
+    text-transform: uppercase;
+}
+.italictext:before {
+    content: url(/kavychka.svg);
+    margin-right: 6px;
