@@ -1,0 +1,133 @@
+body, html {
+    background: #464f53;
+    margin: 0;
+    padding: 0;
+}
+@font-face   {
+    font-family: "Proxima Nova";
+    src: url("fonts/proxima nova/proxima nova regular.otf") format("otf"),
+    url('fonts/Proxima nova/proxima nova regular.otf') format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face   {
+    font-family: "Futura PT Heavy";
+        src: url('fonts/futura_pt_heavy/futura_pt_heavy.eot'); /* IE 9 Compatibility Mode */
+        src: url('fonts/futura_pt_heavy/futura_pt_heavy.eot') format('embedded-opentype'), /* IE < 9 */
+            url('fonts/futura_pt_heavy/futura_pt_heavy.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/futura_pt_heavy/futura_pt_heavy.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+            url('fonts/futura_pt_heavy/futura_pt_heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/futura_pt_heavy/futura_pt_heavy.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+            font-style: normal;
+            font-weight: bold;     
+    }
+@font-face {
+    font-family: 'Georgia';
+    src: local('Georgia Regular'), local('Georgia-Regular'),
+        url('fonts/Georgia.woff2') format('woff2'),
+        url('fonts/Georgia.woff') format('woff'),
+        url('fonts/Georgia.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+.main_container {
+    background-color: white;
+    margin: 149px 70px 0 70px;
+    box-shadow: 0 0 10px;
+}
+.text_container  {
+    padding-left: 58px;
+    margin: 0 133px 0 68px;
+    background-color: white;
+    box-sizing: border-box;
+    border-left: 2px solid #e8ebec;
+}
+.author {
+padding-top: 203px;
+padding-bottom: 49px;
+font-size: 20px;
+letter-spacing: 4px;
+color: #b4b4b4;
+font-family: "Proxima Nova";
+text-transform: uppercase;
+}
+.title {
+font-size: 78px;
+letter-spacing: 4px;
+line-height: 74px;
+color: #2a2a2a;
+font-family: "Futura PT Heavy";
+font-weight: bold;
+text-transform: uppercase;
+}
+.after_title {
+font-size: 30px;
+line-height: 62px;
+color: #8f8f8f;
+font-style: italic;
+font-family: "Georgia";
+text-align: left;
+}
+p {
+font-size: 27px;
+line-height: 40px;
+color: #000000;
+font-family: "Georgia";
+text-align: justify;
+padding-bottom: 25px;
+}
+form {
+    width: 876px;
+    height: 187px;
+background-color:#181818;
+position: absolute;
+  right: 0;
+  top: 49px;
+}
+label {
+    color: #767676;
+    display:block;
+    margin-top: 49px;
+    margin-left: 60px;
+    font-size: 15px;
+font-family: "Proxima Nova", sans-serif;
+letter-spacing: 5px;
+}
+input {
+display:block;
+width: 815px;
+margin-left: 60px;
+background-color:#181818;
+font-size: 48px;
+color: #fefefe;
+font-weight: 400;
+font-family: 'Playfair Display', serif;
+border-right: none;
+border-left: none;
+border-top: none;
+border-bottom: 3px solid #303030;
+outline: none;
+padding: 0;
+}
+.Control_bar {
+    width: 813px;
+    height: 78px;
+    background-color: #fbbf2d;
+    position: absolute;
+    right: 0;
+    top: 236px;
+}
+.tool_bar {
+    display: flex;
+    width: 654px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.tool_bar > img:active{
+    opacity: 1; 
+}
+.tool_bar > img {
+opacity: 0.3;
+}
