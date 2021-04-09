@@ -1,0 +1,55 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-color:#b07cf7;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    line-height: 25px;
+}
+.title {
+font-size: 90px;
+font-weight: 700;
+margin-top: 94px;
+}
+.prelude {
+width: 570px;
+height: 63px;
+font-size: 17px;
+font-weight: 300;
+margin: 0 auto;
+}
+header {
+margin-top: 133px; 
+margin: 133px auto 57px auto;   /* исправить нижний маргин */
+text-align: center;
+}
+article {
+    position: relative;
+}
+.date {
+width: 60px;
+height: 60px;
+border-radius: 5px;
+background-color: #252525;
+opacity: .4;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+}
+.day {
+    font-size: 32px;
+    line-height: 25px;
+    font-weight: 700;
+    /* opacity: 1;
+    color: white; */
+    /* нужно дату и месяц сделать видимыми*/
+}
+.month {
+    font-size: 21px;
+    font-weight: 700;
+}
+time {
+    width: 10px;
+    height: 100px;
+}
