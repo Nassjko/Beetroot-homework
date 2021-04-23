@@ -1,6 +1,6 @@
 //Определить количество цифр в введенном числе.
 let a = +prompt('введите число');
-a= Math.abs(a);
+a= Math.abs(a)
 let devider = 10;
 let midresult=a/devider;
 
