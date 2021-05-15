@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+}
+table td{
+    text-align: center;
+    width: 33.3%;
+}
+.icon {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 1px solid #1275b9;
+    box-sizing: border-box;
+}
+.icon-1 {
+    background-image: url(/assets/Tablet.svg);
+    }
+.icon-2 {
+    background-image: url(/assets/Settings.svg);
+    }
+.icon-3 {
+background-image: url(/assets/Dashboard.svg);
+}
+.icon:hover {
+    background: #ffffff;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-1:hover {
+    background-image: url(/assets/Tablet_blue.svg);
+    }
+.icon-2:hover {
+    background-image: url(/assets/Settings_blue.svg);
+    }
+.icon-3:hover {
+background-image: url(/assets/Dashboard_blue.svg);
+}
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
